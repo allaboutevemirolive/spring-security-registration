@@ -39,6 +39,15 @@ Once deployed, you can access the app at:
 
 https://localhost:8081
 
+### Error and solution:
+
+```
+Tomcat: java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+```
+
+See: 
+https://stackoverflow.com/questions/42218237/tomcat-java-lang-illegalargumentexception-invalid-character-found-in-method-na
+https://stackoverflow.com/a/49421859/16768401
 
 ### Set up MySQL
 By default, the project is configured to use the embedded H2 database.
